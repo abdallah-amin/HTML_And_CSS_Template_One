@@ -494,8 +494,10 @@ body {
     color: var(--secondary-color)
 }
 @media (max-width: 767px) {
-    .contact .info .label {
-        font-size: 29px;
+    .contact .info .label ,
+    .contact .info .link
+    {
+        font-size: 25px;
     }
 }
 /* End Contact */
